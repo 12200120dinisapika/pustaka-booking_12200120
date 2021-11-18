@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Database\Seeds;
-use App\Models\Pengguna;
+use App\Models\Pengguna_12200120;
 use CodeIgniter\Database\Seeder;
 
 class PenggunaSeeder_12200120 extends Seeder
@@ -23,7 +23,7 @@ class PenggunaSeeder_12200120 extends Seeder
             ],
 
         ];
-        $p = new pengguna();
+        $p = new pengguna_12200120();
         $p->insertBatch($data);
     }
 }
